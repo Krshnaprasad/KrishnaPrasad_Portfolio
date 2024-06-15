@@ -1,0 +1,118 @@
+.name-font{
+  font-family:Georgia, 'Times New Roman', Times, serif !important;
+  color: rgb(99, 23, 59) !important;
+}
+.multiple-text {
+  display: inline;
+}
+.modal-backdrop.show {
+  opacity : 0 !important;
+}
+.iconclr{
+  color: rgb(99, 23, 59) !important;
+}
+.name-font1{
+  font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+.text-algn{
+  text-align: justify;
+}
+.dashboard{
+  position: fixed;
+  z-index: 3;
+}
+.resume{
+  text-decoration: none;
+  border: 2px solid rgb(99, 23, 59) !important;
+  color: whitesmoke;
+  background-color: rgb(99, 23, 59) !important;
+  box-shadow: 0 0 10px  rgb(99, 23, 59) ;
+
+}
+.resume:hover{
+  background-color: whitesmoke !important;
+  color: rgb(99, 23, 59) !important;
+  transition: 0.5s;
+  border: 2px solid gray;
+  box-shadow: 0 0 15px whitesmoke;
+
+
+}
+.btn{
+  background-color: white;
+  color: black;
+}
+.img-alter{
+  margin-top: -100px;
+  margin-right: -20px;
+  transition: .3s;
+}
+.img-alter:hover{
+  transform: translateX(65px)
+}
+.sm-img{
+  margin-top: -100px;
+}
+.social-icons{
+margin-top: 120px;
+}
+.icon-clr{
+color: rgba(77, 28, 51, 0.493) !important;
+}
+.icon-clr:hover{
+  color: rgb(77, 28, 51) !important; 
+}
+
+.social-icons1{
+  position: absolute;
+  margin-top: 330px;
+  margin-left: -70px;
+}
+.CV{
+  position: absolute;
+  margin-top: 360px;
+}
+.border-box{
+  width: 200px;
+  height: 380px;
+  border: 2px solid rgb(77, 28, 51);
+  position: relative;
+  z-index: -1;
+  margin-left: -180px;
+  margin-top: -40px;
+}
+.cloud{
+margin-left: -350px;
+position: absolute;
+margin-top: 30px;
+}
+.custom-offcanvas-body {
+  height: 80vh !important; /* Adjust this value as needed */
+  overflow-y: auto !important; /* Ensure content is scrollable if it exceeds the height */
+}
+.cloud1{
+  margin-left: -340px;
+  position: absolute;
+  margin-top: 40px;
+  }
+.exp{
+  box-shadow: 0 0 15px rgb(70, 32, 74);
+}
+.card-bdy{
+  position: relative;
+  transform: translateY(-195px);
+  z-index: -1;
+  border:1px solid black;
+  
+}
+.card-hd:hover{
+  transform: translateY(220px);
+  transition: .5s;
+}
+.card-hd{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+}
+
+
+
+
