@@ -6,6 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 import Imglogo from './assets/IMG_7611.png'
 import Image from 'react-bootstrap/Image';
 import Homepage from './Homepage.jsx';
+import Experience from './Experience.jsx'
 
 const Portfolio = () => {
 
@@ -100,6 +101,9 @@ const Portfolio = () => {
             </div>
             <div className='container-fluid pt-5 pb-5'>
                 <Homepage />
+            </div>
+            <div className='Container-fluid pb-5'>
+                <Experience/>
             </div>
         </>
     )

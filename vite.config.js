@@ -8,11 +8,11 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'src/assets/*.PNG',
+          src: 'src/assets/*.{jpg,JPG,png,PNG}',
           dest: 'assets'
         }
       ]
     })
   ],
-  assetsInclude: ['**/*.PNG']
+  assetsInclude: ['**/*.PNG','**/*.JPG', '**/*.jpg']
 });
