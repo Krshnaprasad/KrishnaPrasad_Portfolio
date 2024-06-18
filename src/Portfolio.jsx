@@ -7,7 +7,7 @@ import Imglogo from './assets/IMG_7611.png'
 import Image from 'react-bootstrap/Image';
 import Homepage from './Homepage.jsx';
 import Experience from './Experience.jsx'
-
+import Project from './Projects.jsx'
 const Portfolio = () => {
 
     const [show, setShow] = useState(false);
@@ -104,6 +104,9 @@ const Portfolio = () => {
             </div>
             <div className='Container-fluid pb-5'>
                 <Experience/>
+            </div>
+            <div className='Container-fluid pt-5 pb-5'>
+                <Project/>
             </div>
         </>
     )
