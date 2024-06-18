@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Accordion from 'react-bootstrap/Accordion';
 import Encore from './assets/Encore.png'
+import Econnect from './assets/Econnect.png'
 
 const Projects = () => {
 
@@ -35,7 +36,7 @@ const Projects = () => {
                         <Accordion.Body>
                             <div className='d-flex justify-content-center'>
                             <Card  style={{ width: '60rem' }}>
-                                <Card.Img className='' variant="top" src={Encore} />
+                                <Card.Img className='' variant="top" src={Econnect} />
                                 <Card.Body>
                                     <Card.Text>
                                         Some quick example text to build on the card title and make up the
