@@ -3,9 +3,10 @@ import ScrollReveal from 'scrollreveal'
 import Image from 'react-bootstrap/Image';
 import Type from './TypeAnimation.jsx'
 
-
+import Resume from './assets/Krishnaprasad_FullstackDeveloper_1yrexp_Resume.pdf'
 import Img1 from './assets/IMG_7610.png' 
 import Img2 from './assets/IMG_7622.PNG'
+
 import Cloud from './assets/Cloud.gif'
 
 const Homepage = () => {
@@ -33,7 +34,7 @@ return (
                         <div className="pt-5"><span className="name-font fs-1 fw-semibold">Krishna Prasad</span><br></br>
                           <span className="fs-3 name-font1 fw-semibold">And Im a <span className="name-font"><Type/></span></span><br></br><br></br>
                         <span className='text-algn'>Dedicated Software development professsional with hands-on-experience in analyzing, designing and developing a certain versatility in using technologies and programming languages. Skilled in database design and scalable solutions to meet diverse project requirements.</span></div>
-                          <div className="d-flex justify-content-center pt-3"><a className="resume p-2" href="Krishnaprasad_FullstackDeveloper_1yrexp_Resume_compressed.pdf" download>Download CV</a></div>
+                          <div className="d-flex justify-content-center pt-3"><a className="resume p-2" href={Resume} download>Download CV</a></div>
                       </div>
                 <div className="col-lg-5 pb-5 d-flex justify-content-center order-1 order-lg-2">
                     <Image className="img-alter img-fluid d-lg-block d-none" src={Img1} width="300" height="300"></Image>

@@ -8,6 +8,8 @@ import Image from 'react-bootstrap/Image';
 import Homepage from './Homepage.jsx';
 import Experience from './Experience.jsx'
 import Project from './Projects.jsx'
+import Education from './Education.jsx'
+import Info from './Info.jsx'  
 const Portfolio = () => {
 
     const [show, setShow] = useState(false);
@@ -102,11 +104,17 @@ const Portfolio = () => {
             <div className='container-fluid pt-5 pb-5'>
                 <Homepage />
             </div>
-            <div className='Container-fluid pb-5'>
+            <div className='container-fluid pb-5'>
                 <Experience/>
             </div>
-            <div className='Container-fluid pt-5 pb-5'>
+            <div className='container-fluid pt-5 pb-5'>
                 <Project/>
+            </div>
+            <div className='container-fluid pt-5 pb-5'>
+                <Education/>
+            </div>
+            <div className='container-fluid pt-5 pb-5'>
+                <Info/>
             </div>
         </>
     )
