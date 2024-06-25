@@ -6,7 +6,7 @@ const TypeAnimation = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Creator', 'Developer'],
+      strings: ['Developer', 'Creator', 'Designer'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,

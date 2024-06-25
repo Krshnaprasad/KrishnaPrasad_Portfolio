@@ -21,13 +21,13 @@ const Portfolio = () => {
         <>
             <div className='navba' style={{zIndex:999}}>
 
-                <Navbar expand="lg" className="bg-body-secondary">
+                <Navbar expand="lg">
                     <Container>
                         <Image src={Imglogo} roundedCircle width="30" height="30" ></Image> &nbsp; &nbsp;
                         <Navbar.Brand className="name-font fs-4 fw-bold">Kr!shna Prasad</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="justify-content-center flex-grow-1">
+                            <Nav className="justify-content-center flex-grow-1 fw-bold">
                                 <Nav.Link href="#home">Home</Nav.Link>
                                 <Nav.Link href="#about">About</Nav.Link>
                                 <Nav.Link onClick={() => setShow(true)} >Skills</Nav.Link>
@@ -117,7 +117,7 @@ const Portfolio = () => {
             <div className='container-fluid pt-5 pb-5' id="contact">
                 <Info/>
             </div>
-            <div className='container-fluid bg-body-secondary pt-5 pb-3'>
+            <div className='container-fluid bg-body-secondary pt-4 pb-2'>
                 <Declaration/>
             </div>
         </>

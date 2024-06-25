@@ -27,7 +27,7 @@ const Homepage = () => {
 return (
 <>
 
-<div className="container-fluid pt-5 pb-5">
+<div className=" container-fluid pt-5 pb-5">
         <div className="container pt-5">
             <div className="row row-cols-lg-2">
                 <div className="home-content col-lg-7 text-black order-lg-1 order-2 text-center text-lg-start">
