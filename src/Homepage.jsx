@@ -27,7 +27,7 @@ const Homepage = () => {
 return (
 <>
 
-<div className="container-fluid pt-5 pb-5" id="home">
+<div className="container-fluid pt-5 pb-5">
         <div className="container pt-5">
             <div className="row row-cols-lg-2">
                 <div className="home-content col-lg-7 text-black order-lg-1 order-2 text-center text-lg-start">
@@ -74,9 +74,9 @@ return (
             </div>
         </div>
     </div>
-    <div className="container-fluid pt-5 pb-5">
+    <div className="container-fluid pt-5 pb-5" id="about">
       <div className="container">
-        <div className="row row-cols-lg-2" id="about">
+        <div className="row row-cols-lg-2" >
           <div className="col-lg-6 pt-4 d-flex justify-content-center">
             <Image src={Img2} width="350" height="400"></Image>
             <Image className="cloud d-none d-md-block" src={Cloud} width="150" height="150" ></Image>

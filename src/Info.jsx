@@ -7,7 +7,7 @@ const Info = () => {
 
     return (
         <>
-            <div className="container" id="contact">
+            <div className="container" >
                 <div className="text-center fs-2 fw-bold name-font1 pb-4">Keep in<span className="fs-2 fw-bold name-font">   touch</span></div>
                 <div className="row ">
                     <div className="col pt-3 d-flex justify-content-center">
@@ -18,18 +18,18 @@ const Info = () => {
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label>Email address:</Form.Label>
-                                <Form.Control type="email" placeholder="name@example.com" />
+                                <Form.Control type="email" placeholder="mail@example.com" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Phone No:</Form.Label>
+                                <Form.Label>Phone:</Form.Label>
                                 <Form.Control type="number" placeholder="Enter your number" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Label>Message</Form.Label>
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
-                            <div className='text-center'>
-                                <button className='border-1 p-1' style={{ width: 350 }}>Submit</button>
+                            <div className='text-center '>
+                                <button className='border-0 p-1 infobg text-white rounded-2 ' style={{ width: 350 }}>Submit</button>
                             </div>
                         </Form>
                     </div>

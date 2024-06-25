@@ -6,7 +6,7 @@ const Education = () => {
 
     return (
         <>
-            <div className="container" id="education">
+            <div className="container">
                 <div className="text-center fs-2 fw-bold name-font1 pb-4">Acadamic-<span className="fs-2 fw-bold name-font">Background</span></div>
 
                 <Tabs

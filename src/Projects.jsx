@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <>
-            <div className="container" id="project">
+            <div className="container">
             <div className="text-center fs-2 fw-bold name-font pt-3 pb-4">Projects</div>
                 <Accordion>
                     <Accordion.Item eventKey="0">

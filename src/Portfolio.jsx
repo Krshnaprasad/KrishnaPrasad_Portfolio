@@ -10,6 +10,7 @@ import Experience from './Experience.jsx'
 import Project from './Projects.jsx'
 import Education from './Education.jsx'
 import Info from './Info.jsx'  
+import Declaration from './Declaration.jsx';
 const Portfolio = () => {
 
     const [show, setShow] = useState(false);
@@ -18,7 +19,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className='navba'>
+            <div className='navba' style={{zIndex:999}}>
 
                 <Navbar expand="lg" className="bg-body-secondary">
                     <Container>
@@ -101,20 +102,23 @@ const Portfolio = () => {
                 </Modal>
 
             </div>
-            <div className='container-fluid pt-5 pb-5'>
+            <div className='container-fluid pt-5 pb-5 mt-5' id="home">
                 <Homepage />
             </div>
-            <div className='container-fluid pb-5'>
+            <div className='container-fluid pb-5' id="experience">
                 <Experience/>
             </div>
-            <div className='container-fluid pt-5 pb-5'>
+            <div className='container-fluid pt-5 pb-5' id="project" >
                 <Project/>
             </div>
-            <div className='container-fluid pt-5 pb-5'>
+            <div className='container-fluid pt-5 pb-5' id="education">
                 <Education/>
             </div>
-            <div className='container-fluid pt-5 pb-5'>
+            <div className='container-fluid pt-5 pb-5' id="contact">
                 <Info/>
+            </div>
+            <div className='container-fluid bg-body-secondary pt-5 pb-3'>
+                <Declaration/>
             </div>
         </>
     )

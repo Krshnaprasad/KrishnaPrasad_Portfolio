@@ -23,7 +23,7 @@ const Experience = () => {
 
     return (
         <>
-            <div className="container-fluid " id='experience'>
+            <div className="container-fluid " >
                 <div className='name-font container  text-center '>
                     <div className="text-center fs-2 fw-bold name-font1 pb-4">Area of <span className="fs-2 fw-bold name-font">Expertise</span></div>
                     <div className='justify-content-evenly d-md-flex d-grid'>

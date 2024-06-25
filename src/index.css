@@ -29,6 +29,9 @@
   box-shadow: 0 0 10px  rgb(99, 23, 59) ;
 
 }
+.infobg{
+  background-color: rgb(99, 23, 59) !important;
+}
 .resume:hover{
   background-color: whitesmoke !important;
   color: rgb(99, 23, 59) !important;
@@ -112,7 +115,12 @@ margin-top: 30px;
 .card-hd{
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
 }
-
+.navba{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 
 
