@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Card1 from './assets/Card 1.jpeg'
 import Card2 from './assets/Card 2.jpg'
 import Card3 from './assets/Card 3.JPG'
@@ -27,36 +26,36 @@ const Experience = () => {
                 <div className='name-font container  text-center '>
                     <div className="text-center fs-2 fw-bold name-font1 pb-4">Area of <span className="fs-2 fw-bold name-font">Expertise</span></div>
                     <div className='justify-content-evenly d-md-flex d-grid'>
-                        <Card className='m-3' style={{ width: '18rem' }}>
+                        <Card className='m-3' style={{ width: '18rem', height:'22.8rem' }}>
                             <Card.Img variant="top" src={Card1} />
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Full Stack Developer</Card.Title>
                                 <Card.Text>
-                                    ExamsDaily PVT LTD <br></br> AUG 2023 - Present
+                                    ExamsDaily Pvt Ltd <br></br> AUG 2023 - Present
                                 </Card.Text>
-                                <Button variant="danger" onClick={handleShow}>Tap more</Button>
+                                <button className='bg-danger bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 text-white' onClick={handleShow}>Tap more</button>
                             </Card.Body>
                         </Card>
-                        <Card className='m-3' style={{ width: '18rem' }}>
+                        <Card className='m-3' style={{ width: '18rem', height:'22.8rem' }}>
                             <Card.Img variant="top" src={Card2} />
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Retail Representative </Card.Title>
                                 <Card.Text>
-                                    Bluestone PVT LTD<br></br>
+                                    Bluestone pvt ltd.<br></br>
                                     SEP 2022 to AUG 2023
                                 </Card.Text>
-                                <Button variant="secondary"  onClick={handleShow1}>Tap more</Button>
+                                <button className='bg-secondary bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 text-white'  onClick={handleShow1}>Tap more</button>
                             </Card.Body>
                         </Card>
-                        <Card className='m-3' style={{ width: '18rem' }}>
+                        <Card className='m-3' style={{ width: '18rem', height:'22.8rem' }}>
                             <Card.Img variant="top" src={Card3} />
                             <Card.Body>
                                 <Card.Title className='fs-5 fw-bold name-font'>Facility Manager</Card.Title>
                                 <Card.Text>
-                                    S24*7 Facility Services PVT LTD <br></br>
+                                    S24*7 Facility Services Pvt Ltd <br></br>
                                     AUG 2021 to SEP 2022
                                 </Card.Text>
-                                <Button variant="success"  onClick={handleShow2}>Tap more</Button>
+                                <button className='bg-success bg-gradient p-2 ps-5 pe-5 rounded-2 border-0 text-white'  onClick={handleShow2}>Tap more</button>
                             </Card.Body>
                         </Card>
                         <Modal
