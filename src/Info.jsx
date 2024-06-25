@@ -1,6 +1,14 @@
 import Form from 'react-bootstrap/Form';
+import Swal from 'sweetalert2';
 const Info = () => {
 
+    const handleClick = () => {
+        Swal.fire({
+          title: 'Message Sent',
+          icon: 'success',
+          confirmButtonText: 'Cool'
+        });
+      }
 
 
 
@@ -29,7 +37,7 @@ const Info = () => {
                                 <Form.Control as="textarea" rows={3} />
                             </Form.Group>
                             <div className='text-center '>
-                                <button className='border-0 p-1 infobg text-white rounded-2 ' style={{ width: 350 }}>Submit</button>
+                                <button className='border-0 p-1 infobg text-white rounded-2 ' style={{ width: 350 }} onClick={handleClick}>Submit</button>
                             </div>
                         </Form>
                     </div>

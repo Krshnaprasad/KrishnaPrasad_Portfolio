@@ -1,13 +1,21 @@
 
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
-
+import Swal from 'sweetalert2';
 
 const Declaration = () =>{
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const handleClick = () => {
+      Swal.fire({
+        title: 'Message Sent',
+        icon: 'success',
+        confirmButtonText: 'Cool'
+      });
+    }
 
 return(
 <>
@@ -36,7 +44,7 @@ return(
         Although I’m currently looking for any new opportunities, My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
         </Modal.Body>
         <Modal.Footer>
-        <button className='bg-success bg-gradient p-2 rounded-2 border-0 text-white'>Connect</button>
+        <button className='bg-success bg-gradient p-2 rounded-2 border-0 text-white' onClick={handleClick}>Connect</button>
           <button className='bg-secondary bg-gradient p-2 rounded-2 border-0 text-white' onClick={handleClose}>
             Close
           </button>
