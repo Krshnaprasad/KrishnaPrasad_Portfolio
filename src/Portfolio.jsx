@@ -29,10 +29,10 @@ const Portfolio = () => {
     return (
         <>
 
-            <div className='navba' id="background-content" style={{ zIndex: 999 }}>
+            <div className='navba' style={{ zIndex: 999 }}>
 
                 <Navbar expand="lg" >
-                    <Container>
+                    <Container >
                         <Image src={Imglogo} roundedCircle width="30" height="30" ></Image> &nbsp; &nbsp;
                         <Navbar.Brand className="name-font fs-4 fw-bold">Kr!shna Prasad</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -67,6 +67,7 @@ const Portfolio = () => {
                 </Navbar>
 
             </div>
+            
             <div className='pt-2' >
                 <Modal
                     show={show}
