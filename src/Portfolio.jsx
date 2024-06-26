@@ -15,15 +15,21 @@ const Portfolio = () => {
 
 
     const [show, setShow] = useState(false);
+    const handleShow = () => {
+        setShow(true);
+        document.getElementById('background-content').classList.add('blur');
+      };
 
-
-
+      const handleClose = () => {
+        setShow(false);
+        document.getElementById('background-content').classList.remove('blur');
+      };
 
 
     return (
         <>
 
-            <div className='navba' style={{ zIndex: 999 }}>
+            <div className='navba' id="background-content" style={{ zIndex: 999 }}>
 
                 <Navbar expand="lg" >
                     <Container>
@@ -34,7 +40,7 @@ const Portfolio = () => {
                             <Nav className="justify-content-center flex-grow-1 fw-bold">
                                 <Nav.Link href="#home">Home</Nav.Link>
                                 <Nav.Link href="#about">About</Nav.Link>
-                                <Nav.Link onClick={() => setShow(true)} >Skills</Nav.Link>
+                                <Nav.Link  onClick={handleShow} >Skills</Nav.Link>
                                 <Nav.Link href="#experience">Experience</Nav.Link>
                                 <Nav.Link href="#project">Projects</Nav.Link>
                                 <Nav.Link href="#education">Education</Nav.Link>
@@ -61,10 +67,10 @@ const Portfolio = () => {
                 </Navbar>
 
             </div>
-            <div className='pt-2'>
+            <div className='pt-2' >
                 <Modal
                     show={show}
-                    onHide={() => setShow(false)}
+                    onHide={handleClose}
                     dialogClassName="modal-90w"
                     aria-labelledby="example-custom-modal-styling-title"
                 >
@@ -112,7 +118,7 @@ const Portfolio = () => {
                 </Modal>
 
             </div>
-            <div className='container-fluid pt-5 pb-5 mt-5' id="home">
+            <div  className='container-fluid pt-5 pb-5 mt-5' id="home">
                 <Homepage />
             </div>
             <div className='container-fluid pb-5' id="experience">
