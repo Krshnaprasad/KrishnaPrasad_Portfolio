@@ -18,7 +18,7 @@ const Info = () => {
             <div className="container" >
                 <div className="text-center fs-2 fw-bold name-font1 pb-4">Keep in<span className="fs-2 fw-bold name-font">   touch</span></div>
                 <div className="row ">
-                    <div className="col pt-3 d-flex justify-content-center">
+                    <div className="col pt-5 d-flex justify-content-center">
                         <Form style={{ width: 350 }}>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label>Name:</Form.Label>
@@ -41,7 +41,7 @@ const Info = () => {
                             </div>
                         </Form>
                     </div>
-                    <div className="col pt-3 d-flex justify-content-center">
+                    <div className="col pt-5 d-flex justify-content-center">
                         <div className="card" style={{ width: 300 }}>
                             <span><iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2294290559057!2d78.1137209739389!3d9.914840523487646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c58188defae9%3A0x525fe1a5d116ddb!2sSankar%20Electronics%20Store!5e0!3m2!1sen!2sin!4v1700201098322!5m2!1sen!2sin"
